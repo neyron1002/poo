@@ -1,8 +1,14 @@
 <?php
 
 class Person{
-    public $id = integer;
-    public $name = string;
-    public $surName = string;
-    public $nuip = integer;    
+    public $id;
+    public $name;
+    public $surName;
+    public $nuip;    
+
+    public function __construct($name, $surName, $nuip){
+        $this->name = $name;
+        $this->surName = $surName;
+        $this->nuip = $nuip;
+    }
 }

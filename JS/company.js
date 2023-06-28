@@ -1,5 +1,5 @@
-function company(){
+function Company(bussinessName, nit){
     this.id;
-    this.bussinessName;
-    this.nit;
+    this.bussinessName = bussinessName;
+    this.nit = nit;
 }

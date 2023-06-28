@@ -1,6 +1,6 @@
-function person(){
+function Person(name, surName, nuip){
     this.id;
-    this.name;
-    this.surName;
-    this.nuip;
+    this.name = name;
+    this.surName = surName;
+    this.nuip =  nuip;
 }
