@@ -8,3 +8,5 @@ var employee2 = new Employee("COO", company,
 employee.printEmployee();
 employee2.printEmployee();
 
+var sofia = new EmployeeEx("Heredera", company, "Sofia", "Pedraza", 1111);
+sofia.printEmployee();

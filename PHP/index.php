@@ -3,6 +3,7 @@
 include 'company.php';
 include 'employee.php';
 include 'person.php';
+include 'employeeEx.php';
 
 // class Company{
 //     public $id;
@@ -30,5 +31,9 @@ new Person('Diana Carolina', 'Duque', 52928864) );
 
 echo $employee->printEmployee();
 echo $employee2->printEmployee();
+
+
+$sofia = new EmployeeEX('Heredera', $companyN, "Sofia", "Pedraza", 111);
+echo $sofia->printEmployee();
 
 

@@ -19,5 +19,10 @@ class Main {
         company);
 
         employee2.printEmployee();
+
+        EmployeeEx sofia = 
+        new EmployeeEx("Heredera", company, "Sofia", "Pedraza", 11 );
+
+        sofia.printEmployee();
     }
 }

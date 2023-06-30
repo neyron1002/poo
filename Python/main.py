@@ -1,5 +1,6 @@
 from company import Company
 from employee import Employee
+from employeeEx import EmployeeEx
 from person import Person
 
 
@@ -25,4 +26,7 @@ if __name__ == "__main__":
 
     employee.printEmployee()
     employee2.printEmployee()
+
+    sofia = EmployeeEx("Heredera", company, "Sofia", "Pedraza", 111)
+    sofia.printEmployee()
 
